@@ -85,6 +85,10 @@ html {
     &-item{
       margin-left: 40px;
 
+      @media(max-width: 660px){
+        margin-inline: 20px;
+      }
+
       img{
         width: 20px;
       }
